@@ -54,7 +54,7 @@ Design a database for patient management, appointments, medical records, and bil
 ![image](https://github.com/user-attachments/assets/d9dffd63-c38a-4af5-aa1c-c76d650ac6a6)
 
 ## Entities and Attributes:
-...
+
 - DEPARTMENT: dept_id, dept_name, dept_head
 
 - DOCTOR: doctor_id, name, specialization, phone_no, email_id, work_schedule
@@ -93,7 +93,7 @@ Design a database for patient management, appointments, medical records, and bil
 ...
 
 ## Extension (Prerequisite / Billing):
-...
+
 - Prerequisite: Not explicitly modeled in the diagram. Could be included as an attribute in APPOINTMENT or a separate entity linking PATIENT to required preliminary checks or documentation.
 - Billing: Also not modeled. Could be an additional entity (e.g., BILL) related to APPOINTMENT or MEDICAL RECORDS with attributes like billing_id, cost, payment_status.
 ...
